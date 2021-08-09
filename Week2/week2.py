@@ -1,7 +1,7 @@
 import os
 import requests
 
-path = '/data/feedback'
+path = 'data/feedback'
 keys = ['title','name','date','feedback']
 for filename in os.listdir(path):
     dic = {}
